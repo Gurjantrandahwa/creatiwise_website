@@ -202,8 +202,6 @@ body {
 
 .inbox-left {
     margin-top: 10px;
-    /*max-width: 400px;*/
-
 }
 
 .charles {
@@ -435,6 +433,7 @@ body {
     margin: auto;
     gap: 40px;
     align-items: center;
+    position: relative;
 }
 
 .rating-cards {
@@ -542,6 +541,7 @@ body {
     line-height: 30px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 30px;
+    max-width: 282px;
 }
 
 /*automations*/
@@ -651,4 +651,55 @@ body {
 .graph-wrapper img {
     margin-left: 10px;
     width: 29px;
+}
+.setting-wrapper{
+    position: absolute;
+    right: 20px;
+    top: 180px;
+}
+.circle-1{position: absolute;
+    left: 16px;
+    top: 16px;
+}
+.setting-2{
+    position: absolute;
+    left: 44px;
+    top: -31px
+}
+.circle-2{
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+/*experience*/
+.message-1{
+    background: #EFEFEF;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 265px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    gap: 8px;
+}
+.message-line-1{
+    background: #D9D9D9;
+    border-radius: 10px;
+    width: 164px;
+    height: 12px;
+}
+.message-line-2{
+    background: #D9D9D9;
+    border-radius: 10px;
+    width: 226px;
+    height: 12px;
+}
+.message-line-3{
+    background: #D9D9D9;
+    border-radius: 10px;
+    width: 178px;
+    height: 12px;
 }
