@@ -4,11 +4,17 @@
     box-sizing: border-box;
 
 }
-
+.margin{
+    margin-top: 70px;
+}
 body {
     background: #F5F5F5;
+    margin: auto;
+    max-width: 1300px;
 }
-
+li{
+    list-style: none;
+}
 /*navbar*/
 .navbar {
     background: rgba(217, 217, 217, 0.5);
@@ -16,7 +22,8 @@ body {
     padding: 30px 0;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+
+    margin: auto;
 }
 
 .logo-wrapper {
@@ -50,7 +57,6 @@ body {
 
 .list {
     display: flex;
-    list-style: none;
     gap: 40px;
 
 }
@@ -103,6 +109,7 @@ body {
     justify-content: center;
     padding: 100px;
     gap: 10px;
+    max-width: 1200px;
 }
 
 .home-section h1 {
@@ -126,6 +133,7 @@ body {
     line-height: 32px;
     max-width: 600px;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .home-section button {
@@ -1153,6 +1161,8 @@ body {
     font-size: 18px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
 }
 
 .footer-right p {
